@@ -6,7 +6,7 @@ const emptyColor = '#99999';
 
 // based on chain name
 // alphabetical
-const chainAdvanca = "#E34A18";
+const chainAdvanca = '#E34A18';
 const chainCrab = '#7C30DD';
 const chainCrust = '#ff8812';
 const chainHanonycash = '#0099CC';

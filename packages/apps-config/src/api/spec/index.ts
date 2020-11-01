@@ -26,9 +26,9 @@ import subsocial from './subsocial';
 
 // mapping from specName in state.getRuntimeVersion
 export default {
-  'advanca-core': advanca,
   Crab: crab,
   Equilibrium: equilibrium,
+  'advanca-core': advanca,
   canvas,
   'centrifuge-chain': centrifugeChain,
   crust,

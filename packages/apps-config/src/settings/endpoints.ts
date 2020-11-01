@@ -72,7 +72,7 @@ function createTestNetworks (t: TFunction): LinkOption[] {
       text: t('rpc.advanca', 'Advanca PoC', { ns: 'apps-config' }),
       textBy: t('rpc.hosted.by", "hosted by {{host}}', { ns: 'apps-config', replace: { host: 'Advanca Network' } }),
       value: 'ws://127.0.0.1:9944'
-    },
+    }
   ];
 }
 
@@ -109,7 +109,7 @@ export default function create (t: TFunction): LinkOption[] {
       text: t('rpc.header.live', 'Live networks', { ns: 'apps-config' }),
       textBy: '',
       value: ''
-    }, 
+    },
     ...createLiveNetworks(t),
    **/
     {
