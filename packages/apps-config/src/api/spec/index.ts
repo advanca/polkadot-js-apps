@@ -1,6 +1,7 @@
 // Copyright 2017-2020 @polkadot/apps-config authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import advanca from './advanca';
 import canvas from './canvas';
 import centrifugeChain from './centrifuge-chain';
 import crab from './crab';
@@ -27,6 +28,7 @@ import subsocial from './subsocial';
 export default {
   Crab: crab,
   Equilibrium: equilibrium,
+  'advanca-core': advanca,
   canvas,
   'centrifuge-chain': centrifugeChain,
   crust,
