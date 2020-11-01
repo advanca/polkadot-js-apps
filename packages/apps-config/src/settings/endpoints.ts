@@ -103,15 +103,6 @@ function createCustom (t: TFunction): LinkOption[] {
 export default function create (t: TFunction): LinkOption[] {
   return [
     ...createCustom(t),
-    /**
-    {
-      isHeader: true,
-      text: t('rpc.header.live', 'Live networks', { ns: 'apps-config' }),
-      textBy: '',
-      value: ''
-    },
-    ...createLiveNetworks(t),
-   **/
     {
       isHeader: true,
       text: t('rpc.header.test', 'Test networks', { ns: 'apps-config' }),
