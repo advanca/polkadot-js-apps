@@ -71,7 +71,7 @@ function createTestNetworks (t: TFunction): LinkOption[] {
     {
       text: t('rpc.advanca', 'Advanca PoC', { ns: 'apps-config' }),
       textBy: t('rpc.hosted.by", "hosted by {{host}}', { ns: 'apps-config', replace: { host: 'Advanca Network' } }),
-      value: 'ws://127.0.0.1:9944'
+      value: 'wss://poc.advanca.network'
     }
   ];
 }
