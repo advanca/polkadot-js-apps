@@ -71,7 +71,7 @@ function createTestNetworks (t: TFunction): LinkOption[] {
     {
       text: t('rpc.advanca', 'Advanca PoC', { ns: 'apps-config' }),
       textBy: t('rpc.hosted.by", "hosted by {{host}}', { ns: 'apps-config', replace: { host: 'Advanca Network' } }),
-      value: 'ws://127.0.0.1:9944'
+      value: 'wss://poc.advanca.network'
     }
   ];
 }
@@ -103,15 +103,6 @@ function createCustom (t: TFunction): LinkOption[] {
 export default function create (t: TFunction): LinkOption[] {
   return [
     ...createCustom(t),
-    /**
-    {
-      isHeader: true,
-      text: t('rpc.header.live', 'Live networks', { ns: 'apps-config' }),
-      textBy: '',
-      value: ''
-    },
-    ...createLiveNetworks(t),
-   **/
     {
       isHeader: true,
       text: t('rpc.header.test', 'Test networks', { ns: 'apps-config' }),
