@@ -1,5 +1,6 @@
 {
   "lng.detect": "Default browser language (auto-detect)",
+  "rpc.advanca": "Advanca PoC",
   "rpc.amber": "Amber",
   "rpc.ava.summary": "user-run public nodes; see https://status.cloud.ava.do/",
   "rpc.beresheet": "Beresheet",
@@ -21,6 +22,7 @@
   "rpc.header.live": "Live networks",
   "rpc.header.test": "Test networks",
   "rpc.hosted.by": "hosted by {{host}}",
+  "rpc.hosted.by\", \"hosted by {{host}}": "",
   "rpc.kilt": "Mashnet",
   "rpc.kulupu": "Kulupu",
   "rpc.kusama.ava": "Kusama",
